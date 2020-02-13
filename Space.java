@@ -70,12 +70,21 @@ public class Space extends World
             background.fillOval(x, y, starSize,starSize);
          
         }
-
-
-        }
         
+        }
+   
+        /**
+         * This method is called when the game is over to display the final score.
+         */
+        public void gameOver() 
+        {
+        // TODO: show the score board here. Currently missing.
     }
-    
+
+}
+
+
+       
     
     
    
